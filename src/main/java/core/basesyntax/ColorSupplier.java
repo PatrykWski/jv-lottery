@@ -14,5 +14,5 @@ public class ColorSupplier {
         Random random = new Random();
         int randomNumber = random.nextInt(101);
         return randomNumber;
-}
+    }
 }
