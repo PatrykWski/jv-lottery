@@ -9,9 +9,10 @@ public class ColorSupplier {
         Color color = Color.values()[index];
         return color;
     }
+
     public int getRandomInt() {
         Random random = new Random();
-int randomNumber = random.nextInt(101);
-return randomNumber;
+        int randomNumber = random.nextInt(101);
+        return randomNumber;
 }
 }
